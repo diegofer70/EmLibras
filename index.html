@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bem Libras - Conectando mundos através da Língua Brasileira de Sinais. Serviços especializados de interpretação e tradução em Libras.">
+    <title>Bem Libras - Conectando mundos através da Língua Brasileira de Sinais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Navegação principal">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#inicio" aria-label="Bem Libras - Página inicial">
+                        <img style="width: 150px;" src="./image/logo-emLibras.png" alt="Logo Bem Libras">
+                    </a>
+                </div>
+                <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero" role="main">
+        <div class="hero-container">
+            <h1 class="hero-title">Conectando mundos através da Língua Brasileira de Sinais</h1>
+            <p class="hero-description">
+                Oferecemos serviços especializados de interpretação e tradução em Libras para garantir acessibilidade e inclusão em todos os ambientes.
+            </p>
+            <a href="#servicos" class="btn-primary" aria-label="Conhecer nossos serviços">Conhecer nossos serviços</a>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="servicos" class="services" role="region" aria-labelledby="services-heading">
+        <div class="container">
+            <img src="./image/Interpretes.png" alt="Intérpretes de Libras em ação" class="hero-image">
+            <h2 id="services-heading" class="section-title">Nossos serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 10.5V7C17 6.46957 16.7893 5.96086 16.4142 5.58579C16.0391 5.21071 15.5304 5 15 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19H15C15.5304 19 16.0391 18.7893 16.4142 18.4142C16.7893 18.0391 17 17.5304 17 17V13.5L21 17.5V6.5L17 10.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Interpretação Simultânea</h3>
+                    <p class="service-description">
+                        Interpretação em tempo real para eventos, reuniões, conferências e apresentações, garantindo comunicação efetiva entre surdos e ouvintes.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Tradução de Conteúdo</h3>
+                    <p class="service-description">
+                        Tradução de materiais educativos, documentos e conteúdos digitais para Libras, tornando informações acessíveis a toda comunidade surda.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 10V6C22 5.46957 21.7893 4.96086 21.4142 4.58579C21.0391 4.21071 20.5304 4 20 4H4C3.46957 4 2.96086 4.21071 2.58579 4.58579C2.21071 4.96086 2 5.46957 2 6V18C2 18.5304 2.21071 19.0391 2.58579 19.4142C2.96086 19.7893 3.46957 20 4 20H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 10H22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 16H6.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 14L18 16L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Capacitação em Libras</h3>
+                    <p class="service-description">
+                        Cursos e treinamentos para profissionais e organizações que desejam se comunicar efetivamente com a comunidade surda.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 21H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5 21V7L13 2L21 7V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 9V13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 17V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15 13V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15 9V13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Consultoria em Acessibilidade</h3>
+                    <p class="service-description">
+                        Orientação para empresas e instituições sobre como implementar práticas inclusivas e garantir acessibilidade em seus serviços.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Additional Services Accordion -->
+            <div class="services-accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="accordion-1">
+                        <span>Atendimento Médico e Hospitalar</span>
+                        <span class="accordion-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="accordion-content" id="accordion-1" role="region">
+                        <p style="font-weight: bold;">
+                            Interpretação especializada para área da saúde:
+                        </p>
+                        <div style="padding: 20px 0;">
+                            <ul>
+                                <li>Consultas médicas e exames</li>
+                                <li>Procedimentos hospitalares</li>
+                                <li>Orientações de tratamento</li>
+                                <li>Emergências médicas</li>
+                            </ul>
+                        </div>
+                        <p>
+                            Ajudamos empresas a criar ambientes de trabalho verdadeiramente inclusivos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="accordion-2">
+                        <span>Serviços Jurídicos</span>
+                        <span class="accordion-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="accordion-content" id="accordion-2" role="region">
+                        <p style="font-weight: bold;">
+                            Interpretação para contextos jurídicos:
+                        </p>
+                        <div style="padding: 20px 0;">
+                            <ul>
+                                <li>Audiências e julgamentos</li>
+                                <li>Depoimentos e interrogatórios</li>
+                                <li>Consultas com advogados</li>
+                                <li>Mediações e conciliações</li>
+                            </ul>
+                        </div>
+                        <p>
+                            Garantimos sigilo profissional e precisão técnica em todos os procedimentos legais.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="accordion-3">
+                        <span>Educação e Capacitação</span>
+                        <span class="accordion-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="accordion-content" id="accordion-3" role="region">
+                        <p style="font-weight: bold;">
+                            Serviços educacionais especializados:
+                        </p>
+                        <div style="padding: 20px 0;">
+                            <ul>
+                                <li>Capacitação para atendimento ao público</li>
+                                <li>Interpretação em salas de aula</li>
+                                <li>Palestras e seminários</li>
+                                <li>Cursos de Libras para ouvintes</li>
+                                <li>Treinamento para professores</li>
+                            </ul>
+                        </div>
+                        <p>
+                            Promovemos a inclusão educacional através de metodologias adaptadas e recursos visuais.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="accordion-4">
+                        <span>Empresarial e Corporativo</span>
+                        <span class="accordion-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="accordion-content" id="accordion-4" role="region">
+                        <p style="font-weight: bold;">
+                            Soluções para o ambiente corporativo:
+                        </p>
+                        <div style="padding: 20px 0;">
+                            <ul>
+                                <li>Reuniões e apresentações</li>
+                                <li>Treinamentos corporativos</li>
+                                <li>Eventos e confraternizações</li>
+                                <li>Processos seletivos inclusivos</li>
+                            </ul>
+                        </div>
+                        <p>
+                            Ajudamos empresas a criar ambientes de trabalho verdadeiramente inclusivos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about" role="region" aria-labelledby="about-heading">
+        <div class="container">
+            <h2 id="about-heading" class="section-title">Sobre a Bem Libras</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    A Bem Libras nasceu da necessidade de criar pontes de comunicação entre a comunidade surda e ouvinte. Nossa missão é garantir que todos tenham acesso à informação e possam participar plenamente da sociedade.
+                </p>
+                <p class="about-text">
+                    Com uma equipe de intérpretes certificados e experientes, oferecemos serviços de alta qualidade que respeitam a cultura surda e promovem a inclusão social.
+                </p>
+            </div>
+
+            <!-- Diferenciais -->
+            <div class="diferenciais-grid">
+                <div class="diferencial-card">
+                    <div class="diferencial-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial-title">Profissionais Certificados</h3>
+                    <p class="diferencial-description">
+                        Todos os nossos intérpretes possuem certificação oficial e experiência comprovada.
+                    </p>
+                </div>
+
+                <div class="diferencial-card">
+                    <div class="diferencial-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.57831 8.50903 2.99871 7.05 2.99871C5.59096 2.99871 4.19169 3.57831 3.16 4.61C2.1283 5.64169 1.54871 7.04097 1.54871 8.5C1.54871 9.95903 2.1283 11.3583 3.16 12.39L4.22 13.45L12 21.23L19.78 13.45L20.84 12.39C21.351 11.8792 21.7564 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22248 22.4518 8.5C22.4518 7.77752 22.3095 7.0621 22.0329 6.39464C21.7564 5.72718 21.351 5.12075 20.84 4.61Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial-title">Compromisso com a Inclusão</h3>
+                    <p class="diferencial-description">
+                        Trabalhamos para criar uma sociedade mais acessível e inclusiva para todos.
+                    </p>
+                </div>
+
+                <div class="diferencial-card">
+                    <div class="diferencial-icon" aria-hidden="true">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial-title">Atendimento Ágil</h3>
+                    <p class="diferencial-description">
+                        Resposta rápida às suas solicitações, incluindo atendimento de emergência.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact" role="region" aria-labelledby="contact-heading">
+        <div class="container">
+            <h2 id="contact-heading" class="section-title">Entre em contato</h2>
+            <p class="contact-subtitle">
+                Solicite um orçamento ou tire suas dúvidas. Estamos aqui para ajudar!
+            </p>
+            <form class="contact-form" id="contactForm" aria-label="Formulário de contato">
+                <div class="form-group">
+                    <label for="nome">Nome Completo <span class="required">*</span></label>
+                    <input type="text" id="nome" name="nome" required aria-required="true" aria-describedby="nome-error">
+                    <span class="error-message" id="nome-error" role="alert"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-error">
+                    <span class="error-message" id="email-error" role="alert"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone/WhatsApp</label>
+                    <input type="tel" id="telefone" name="telefone" aria-describedby="telefone-error">
+                    <span class="error-message" id="telefone-error" role="alert"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="servico">Tipo de Serviço</label>
+                    <select id="servico" name="servico" aria-describedby="servico-error">
+                        <option value="">Selecione um serviço</option>
+                        <option value="interpretacao-simultanea">Interpretação Simultânea</option>
+                        <option value="traducao-conteudo">Tradução de Conteúdo</option>
+                        <option value="capacitacao-libras">Capacitação em Libras</option>
+                        <option value="consultoria-acessibilidade">Consultoria em Acessibilidade</option>
+                        <option value="atendimento-medico">Atendimento Médico e Hospitalar</option>
+                        <option value="servicos-juridicos">Serviços Jurídicos</option>
+                        <option value="educacao">Educação e Capacitação</option>
+                        <option value="empresarial">Empresarial e Corporativo</option>
+                    </select>
+                    <span class="error-message" id="servico-error" role="alert"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem <span class="required">*</span></label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required aria-required="true" placeholder="Descreva suas necessidades, data do evento, local, número de participantes, etc." aria-describedby="mensagem-error"></textarea>
+                    <span class="error-message" id="mensagem-error" role="alert"></span>
+                </div>
+
+                <button type="submit" class="btn-submit" aria-label="Enviar solicitação">Enviar Solicitação</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <div>
+                            <img style="height: 40px;" src="./image/logo-emLibras.png" alt="Logo Bem Libras">
+                        </div>
+                        <h3 class="footer-title">Atendimento ao Público</h3>
+                        <p class="footer-subtitle">Conectando mundos através da Língua Brasileira de Sinais</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/rayangabriels" target="_blank" aria-label="Instagram" class="social-icon">
+                            <img src="./image/instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#inicio" class="back-to-top" aria-label="Voltar ao topo">
+                        Voltar ao topo
+                        <img src="./image/Volver-Arriba.svg" alt="Seta para cima">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="footer-bottom-content">
+                    <p class="footer-copyright">© 2026 Em Libras. Todos os direitos reservados.
+                    </p>
+                    <!-- <div class="footer-legal">
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Termos de Uso</a>
+                        <a href="#">Cookies</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
